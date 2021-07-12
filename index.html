@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/terminal-config.css">
+    <link rel="stylesheet" href="assets/css/git-config.css">
+    <script src="https://kit.fontawesome.com/4b529e13e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <section>
+                <ul>
+                    <li><a href="#">Terminal</a></li>
+                    <li><a href="#">Git</a></li>
+                    <li><a href="#">Html</a></li>
+                    <li><a href="#">Css</a></li>
+                    <li><a href="#">Js</a></li>
+                    <a href="#"><i class="fas fa-book"></i></a>
+                    <a href="#"><i class="fas fa-question"></i></a>
+                </ul>
+            </section>
+        </header>
+        <aside>
+            <ul>
+                <li><a href="#pwd"><span>pwd</span> – wo bin ich</a></li>
+                <li><a href="#ls"><span>ls</span> – Verzeichnis-Inhalt anzeigen</a></li>
+                <li><a href="#cd"><span>cd</span> – Verzeichnis wechseln</a></li>
+                <li><a href="#cat"><span>cat</span> – Datei-Inhalt anzeigen</a></li>
+                <li><a href="#clear"><span>clear</span> – Terminal räumen</a></li>
+                <li><a href="#mkdir"><span>mkdir</span> — erstellt Verzeichnisse</a></li>
+                <li><a href="#touch"><span>touch</span> – erstellt Dateien</a></li>
+            </ul>
+        </aside>
+        <div class="vert-line"></div>
+        <section>
+            <article id="pwd"> 
+                <div></div>
+                <h1><span>pwd</span> – wo bin ich</h1>
+                <p>Sobald ihr das Terminal öffnet, seht ihr welcher Nutzer an welchem Rechner mit diesem Terminal angemeldet ist, allerdings seht ihr nicht, in welchem Verzeichnis ihr euch gerade eigentlich befindet. Der Befehl pwd ändert das und zeigt euch den aktuellen Dateipfad an.</p>
+            </article>
+            <article id="ls">
+                <div></div>
+                <h1><span>ls</span> – Verzeichnis-Inhalt anzeigen</h1>
+                <p>Ihr könnt wie in Windows den Befehl dir nutzen, um euch den Inhalt eines Verzeichnisses anzeigen zu lassen. Mit ls (steht für „list“) ist die Ausgabe aber farbig und übersichtlicher. Mit ls -lh seht ihr die Ordner und Dateien in einer übersichtlichen Listenansicht (Parameter -l) und mit für Menschen besserer Größenangabe (Paramter -h).
+                </p>
+            </article>
+            <article id="cd">
+                <div></div>
+                <h1><span>cd</span> – Verzeichnis wechseln</h1>
+                <p>Wie in Windows wechselt der Befehl cd {Verzeichnis} in ein bestimmtes Verzeichnis (change directory). Wenn ihr wieder eine Ebene nach oben wechseln wollt, gebt ihr einfach nur cd ein. Ihr könnt das in unserem Screenshot verfolgen:
+                </p>
+            </article>
+            <article id="cat">
+                <div></div>
+                <h1><span>cat</span> – Datei-Inhalt anzeigen</h1>
+                <p>Der Befehl cat zeigt euch im Terminal den Inhalt einer ausgewählten Datei aus. cat /proc/cpuinfo zeigt euch beispielsweise den Inhalt der Datei cpuinfo aus dem Verzeichnis /proc/ an. Sie enthält Informationen zu eurem Prozessor.
+                </p>
+            </article>
+            <article id="clear">
+                <div></div>
+                <h1><span>clear</span> – Terminal räumen</h1>
+                <p>Wenn ihr die vorigen Befehle nicht mehr im Terminal sehen wollt, gebt clear ein. Um die Befehle wieder zu sehen, könnt ihr einfach wieder nach oben scrollen. Alternativ drückt ihr die Tastenkombination Strg + L.
+                </p>
+            </article>
+            <article id="mkdir">
+                <div></div>
+                <h1><span>mkdir</span> — erstellt Verzeichnisse</h1>
+                <p>wobei "hallo" für das zu erstellende Verzeichnis steht. Wird das Kommando in der normalen Konsole ausgeführt, so wird der neue Ordner ausgehend vom aktuellen Verzeichnis angelegt.
+                </p>
+            </article>
+            <article id="touch">
+                <div></div>
+                <h1><span>touch</span> – erstellt Dateien</h1>
+                <p>Mit dem Befehl touch lassen sich Zugriffs- und Änderungs-Zeitstempel von Dateien ändern. Existiert die von touch zu ändernde Datei nicht, wird sie neu angelegt. touch wird daher häufig auch zum Erstellen leerer Dateien verwend
+                </p>
+            </article>
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+</body>
+</html>
