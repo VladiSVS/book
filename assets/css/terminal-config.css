@@ -1,43 +1,77 @@
 /* section TERMINAL */
 
+main > aside > ul > li > a > span {
+    color: #5DC942;
+}
+
+.fa-book:hover {
+    color: #5DC942;
+}
+
+.fa-question:hover {
+    color: #5DC942;
+}
+
+main > section > article > h1 > span {
+    color: #5DC942;
+}
+
 main > section > article:nth-child(1) > div {
     content: url("../img/carbon1.png");
     width: 100%;
-    margin-bottom: 3%;
 }
 
 main > section > article:nth-child(2) > div {
     content: url("../img/carbon2.png");
     width: 100%;
-    margin-bottom: 3%;
 }
 
 main > section > article:nth-child(3) > div {
     content: url("../img/carbon3.png");
     width: 100%;
-    margin-bottom: 3%;
 }
 
 main > section > article:nth-child(4) > div {
     content: url("../img/carbon4.png");
     width: 100%;
-    margin-bottom: 3%;
 }
 
 main > section > article:nth-child(5) > div {
     content: url("../img/carbon5.png");
     width: 100%;
-    margin-bottom: 3%;
 }
 
 main > section > article:nth-child(6) > div {
     content: url("../img/carbon6.png");
     width: 100%;
-    margin-bottom: 3%;
 }
 
 main > section > article:nth-child(7) > div {
     content: url("../img/carbon7.png");
     width: 100%;
-    margin-bottom: 3%;
+}
+
+main > section > article:nth-child(8) > div {
+    content: url("../img/carbon8.png");
+    width: 100%;
+}
+
+main > section > article:nth-child(9) > div {
+    content: url("../img/carbon9.png");
+    width: 100%;
+}
+
+main > section > article:nth-child(10) > div {
+    content: url("../img/carbon10.png");
+    width: 100%;
+}
+
+main > section > article:nth-child(11) > div {
+    content: url("../img/carbon11.png");
+    width: 100%;
+}
+
+main > section > article:nth-child(12) > div {
+    content: url("../img/carbon12.png");
+    width: 100%;
 }
